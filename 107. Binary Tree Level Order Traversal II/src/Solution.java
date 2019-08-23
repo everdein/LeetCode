@@ -1,3 +1,4 @@
+import java.util.List;
 
 class Solution
 {
@@ -17,6 +18,10 @@ class Solution
         tree.root.right.left = new TreeNode(15);
         tree.root.right.right = new TreeNode(7);
 
+        // Calls levelOrderBottom method and stores list result.
+        List result = tree.levelOrderBottom(tree.root);
 
+        // Prints list of a list of integers.
+        System.out.println(result);
     }
 }

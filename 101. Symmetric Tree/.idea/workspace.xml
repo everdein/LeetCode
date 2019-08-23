@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46f83523-f40d-4089-8b46-1beb6a031e75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../104. Maximum Depth of Binary Tree/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../104. Maximum Depth of Binary Tree/104. Maximum Depth of Binary Tree.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../104. Maximum Depth of Binary Tree/src/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../104. Maximum Depth of Binary Tree/src/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../104. Maximum Depth of Binary Tree/src/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../107. Binary Tree Level Order Traversal II/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../107. Binary Tree Level Order Traversal II/src/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../107. Binary Tree Level Order Traversal II/src/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../107. Binary Tree Level Order Traversal II/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../107. Binary Tree Level Order Traversal II/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../107. Binary Tree Level Order Traversal II/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../107. Binary Tree Level Order Traversal II/src/Solution.java" afterDir="false" />
-    </list>
+    <list default="true" id="46f83523-f40d-4089-8b46-1beb6a031e75" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +35,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/TreeNode.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="570">
-                      <caret line="38" column="11" selection-end-line="40" selection-end-column="1" />
+                    <state relative-caret-position="465">
+                      <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
                       <folding>
                         <element signature="e#107#108#0" expanded="true" />
                         <element signature="e#141#142#0" expanded="true" />
@@ -207,12 +193,12 @@
       <workItem from="1562711093168" duration="86000" />
       <workItem from="1562711194677" duration="369000" />
       <workItem from="1564770052667" duration="327000" />
-      <workItem from="1566414078063" duration="1622000" />
+      <workItem from="1566414078063" duration="1657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7764000" />
+    <option name="totallyTimeSpent" value="7799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="633" y="23" width="1287" height="1177" extended-state="0" />
@@ -305,8 +291,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="11" selection-end-line="40" selection-end-column="1" />
+        <state relative-caret-position="465">
+          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
           <folding>
             <element signature="e#107#108#0" expanded="true" />
             <element signature="e#141#142#0" expanded="true" />
