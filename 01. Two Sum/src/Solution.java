@@ -2,6 +2,9 @@
 // LeetCode 07. Reverse Integer (Easy)
 // Runtime 43.77%
 
+import java.util.Map;
+import java.util.HashMap;
+
 class Solution
 {
     // Main method passes array of integers and target integer 
@@ -12,38 +15,32 @@ class Solution
         // Declares array of integers.
         int[] nums = {2, 7, 11, 15};
         // Declares integer.
-        int target = 9;
+        int target = 26;
         // Passes array and integer to two sum and stores the result in sum.
         int[] sum = twoSum(nums, target);
         // 
         for (int i = 0; i < sum.length; i++)
         {
-            System.out.println(sum[i]);
+            System.out.print(sum[i] + " ");
         }
-        
     }
     
     // Method checks array of integers to see if there are two
     // integers that add up to the target integer.
     public static int[] twoSum(int[] nums, int target)
     {
-        // Cycles through array of integers.
-        for (int i = 0; i < nums.length; i++)
+        int[] result = new int[2];
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        for(int i = 0; i < nums.length; i++)
         {
-            // Cycles through array of integers a second time.
-            for (int j = i + 1; j < nums.length; j++)
+            if(map.containsKey(target - nums[i]))
             {
-                // Compares first integer of array to target integer 
-                // minues the next integer of array.
-                if (nums[j] == target - nums[i])
-                {
-                    // When two integers are found that equal target
-                    // integer the index of both numbers is returned.
-                    return new int[] {i, j};
-                }
+                result[1] = i;
+                result[0] = map.get(target - nums[i]);
+                return result;
             }
+            map.put(nums[i], i);
         }
-        // In the event there's no solution an illegal argument exception is made.
-        throw new IllegalArgumentException("No two sum solution");
+        return result;
     }
 }
